@@ -9,6 +9,8 @@ body {
   background-color: #b4eafb;
   border-radius: 10px;
   font-size: 30px;
+  position: absolute;
+  left: 200px;
 }
 
 button {
@@ -20,11 +22,41 @@ button {
   color: black;
   width: 30px;
   border-radius: 3px;
+  position: absolute;
+  right: 0;
 }
 
 .ok {
   background-color: #28a745;
   color: white;
+  position: absolute;
+  left: 22vw;
+  bottom: 0;
 }
 
 /* sem přijdou tvoje styly */
+.help {
+  width: 20vw;
+  height: 10vw;
+  border: 10px solid red;
+  background-color: grey;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.ano {
+  background-color: blue;
+  color: azure;
+  position: absolute;
+  left: 4vw;
+  top: 5vw;
+}
+
+.ne {
+  background-color: red;
+  color: azure;
+  position: absolute;
+  right: 4vw;
+  top: 5vw;
+}
